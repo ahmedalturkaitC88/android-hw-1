@@ -1,0 +1,32 @@
+public class HelloWorld{
+
+     public static void main(String []args)
+     {
+        System.out.println("Hello World");
+        
+        name ("Ahmed" , 15);
+        
+     }
+     
+     // function to print
+     
+      public static void name(String name , int age) 
+      {
+         
+         if (age >= 18 )
+         {
+              System.out.println( "  ??? ???? ??? ???? ???????" +name+"????? ?? ");
+              
+         }
+         else{
+             
+               System.out.println( " ?????? ????? ?????? ??? ??????" +name + " ????? ?? ");
+         }
+         
+         
+     } // close function
+     
+     
+     
+     
+}
